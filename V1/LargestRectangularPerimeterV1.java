@@ -1,7 +1,9 @@
+package V1;
+
 import java.util.Scanner;
 import java.util.Stack;
 
-public class LargestRectangularArea {
+public class LargestRectangularPerimeterV1 {
     private static Stack<Integer[]> stackCol = new Stack<>();
     private static Stack<Integer[]> stackRow = new Stack<>();
     private static int countOfLandsWithPerimeter = 0;
